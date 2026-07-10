@@ -9,7 +9,7 @@
 const CONFIG = {
     // Google Drive integration (optional — see README.md)
     DRIVE_FOLDER_ID: "1ByycLpYJOp4YleuAhmsvOe4-AqoXYaWp",   // long id from your Drive folder URL
-    DRIVE_API_KEY:   "",   // API key from Google Cloud Console
+    DRIVE_API_KEY:   "AIzaSyDCqn9lKWJsPm9ns8eKDDR6Mshabpzt7BU",   // API key from Google Cloud Console
     LAYOUT_URL: "desk_layout.json",
 };
 
