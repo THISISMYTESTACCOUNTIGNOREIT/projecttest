@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+
+#normalView {
+  padding: 1rem;
+}
+
+.folder, .file {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.folder {
+  font-weight: bold;
+}

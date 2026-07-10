@@ -1,0 +1,23 @@
+[
+  {
+    "id": "folder-design",
+    "name": "Design Project",
+    "type": "folder",
+    "url": "https://drive.google.com/drive/folders/1lvSDbyCJjgtPo2tpmBv9vcnOe7Ppv7oA?usp=drive_link",
+    "children": [
+      { "id": "file-cad", "name": "CAD Model", "type": "file", "fileType": "doc", "url": "https://docs.google.com/document/d/1WA0vMEWEmKqSSJ_r2PDycEvXrbZNXQjGSa39cZNG0Ak/edit?usp=drive_link" },
+      { "id": "file-report", "name": "Report", "type": "file", "fileType": "doc", "url": "https://docs.google.com/document/d/1S_J4Bqdfaki66kZIM1c0YTLvlZUFXvB-kl9BmFU6hPU/edit?usp=drive_link" }
+    ]
+  },
+  {
+    "id": "folder-appdemo",
+    "name": "App Demo Folder",
+    "type": "folder",
+    "url": "https://drive.google.com/drive/folders/1ByycLpYJOp4YleuAhmsvOe4-AqoXYaWp?usp=drive_link",
+    "children": [
+      { "id": "file-demodoc", "name": "Demo Doc", "type": "file", "fileType": "doc", "url": "https://docs.google.com/document/d/1WA0vMEWEmKqSSJ_r2PDycEvXrbZNXQjGSa39cZNG0Ak/edit?usp=drive_link" }
+    ]
+  },
+  { "id": "file-resume", "name": "Resume", "type": "file", "fileType": "doc", "url": "https://docs.google.com/document/d/1S_J4Bqdfaki66kZIM1c0YTLvlZUFXvB-kl9BmFU6hPU/edit?usp=drive_link" },
+  { "id": "file-photo", "name": "Project Photo", "type": "file", "fileType": "image", "url": "https://drive.google.com/drive/folders/1lvSDbyCJjgtPo2tpmBv9vcnOe7Ppv7oA?usp=drive_link" }
+]
