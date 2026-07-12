@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Jaden’s Portfolio</title>
+  <title>Jaden's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
 </head>
 <body>
   <header>
     <h1>My Portfolio</h1>
-    <button id="toggleView">Switch to Desk View</button>
+    <button id="toggleView">Switch to Normal View</button>
   </header>
 
-  <!-- Normal mode -->
-  <div id="normalView"></div>
+  <!-- Desk mode (default) -->
+  <canvas id="deskView"></canvas>
 
-  <!-- Desk mode (hidden at first) -->
-  <canvas id="deskView" style="display:none;"></canvas>
+  <!-- Normal mode (hidden at first) -->
+  <div id="normalView" style="display:none;"></div>
 
   <script src="script.js"></script>
 </body>

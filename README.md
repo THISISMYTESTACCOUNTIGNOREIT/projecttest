@@ -122,3 +122,24 @@ subfolder in the path, or `fetch()` calls will 404.
 - `ADOPT_THRESHOLD` (160px) — how close to drop an ejected file to re-adopt it
 - `SPRITE` sizes — display dimensions of each sprite
 - Desk color — `#c8a97e` in the render loop
+
+---
+
+## 6. New in v2
+
+**Desk view is now the default.** Visitors land on the desk; "Normal View" is the toggle.
+
+**Files permanently join folders.** Drag any file onto any *open* folder (golden glow
+shows the drop zone) and it becomes part of that folder — closes with it, moves with it.
+Drag a file out past ~200px and it leaves the folder and lives on the desk.
+All membership changes are captured by Export Layout, so your arrangement — including
+which files live in which folders — becomes the site default.
+
+**Scribbles.** In admin mode (`?admin=1`) you get ✏️ Draw and 🧽 Erase buttons.
+Draw directly on the desk (pencil style), erase by clicking strokes. Scribbles are saved
+in the exported layout and every visitor sees them. Visitors cannot draw.
+
+**Upgrading sprites:** replace the PNG in `assets/` (keep the filename), and if the
+aspect ratio changed, update the `w`/`h` for that sprite in the `SPRITE` block at the
+top of `script.js`. Nothing else needs to change. Tip: PNGs with transparent
+backgrounds at roughly 2–3x display size look crispest.
